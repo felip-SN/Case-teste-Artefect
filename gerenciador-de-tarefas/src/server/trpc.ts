@@ -16,6 +16,8 @@ interface Task {
 let tasks: Task[] = []; //Criando o array de tarefas
 let idCounter = 1; //Estabelencdo uma variavel para servir como id das tarefas
 
+//Nesta parte do código, estou definindo o CRUD da api. Inicio criando o endpoint para o get, depois para post, update e delete. 
+// No fim, estou exportando que vai ser do tipo AppRouter para poder chamar os endpoint no cliente sem o risco de erros.
 export const appRouter = t.router({
     getTasks: t.procedure.query(() => tasks),
     postTasks: t.procedure.input(z.object({title: z.string().min(1), description: z.string().optional()}))

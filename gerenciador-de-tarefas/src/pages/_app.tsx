@@ -15,3 +15,5 @@ function MyApp({ Component, pageProps }){
 }
 
 export default MyApp;
+
+//Aqui, estarei estabalecendo a URL da api, como também disponibilizando ela para toda a aplicação. Tambem estou garantindo a gerencia do cache.
