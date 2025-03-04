@@ -1,0 +1,1 @@
+[Felipe Santos Nascimento - Estágio em Desenvolvedor Web Full Stack - Vaga afirmativa para pessoas negras.pdf](https://github.com/user-attachments/files/19079022/Felipe.Santos.Nascimento.-.Estagio.em.Desenvolvedor.Web.Full.Stack.-.Vaga.afirmativa.para.pessoas.negras.pdf)
