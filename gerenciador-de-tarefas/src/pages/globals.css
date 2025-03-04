@@ -163,6 +163,10 @@ textarea{
   border: 1px solid black;
 }
 
+.btn-new{
+  width: 50%;
+}
+
 .mtop{
   margin-top: 0.5rem;
 }

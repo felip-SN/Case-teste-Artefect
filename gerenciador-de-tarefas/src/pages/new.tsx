@@ -18,7 +18,7 @@ export default function NewTask() {
       <div className='form'>
         <input value={title} onChange={e => setTitle(e.target.value)} placeholder="Título" />
         <textarea value={description} onChange={e => setDescription(e.target.value)} placeholder="Descrição" />
-        <button className='btn' onClick={() => createTask.mutate({ title, description })}>Criar</button>
+        <button className='btn btn-new' onClick={() => createTask.mutate({ title, description })}>Criar</button>
       </div>
     </div>
   );
